@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "net.fadiese.arsironcompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "arsironcompat.refmap.json",
+  "mixins": [
+    "mana.AbstractSpellMixin",
+    "mana.MagicDataMixin",
+    "mana.MagicManagerMixin",
+    "mana.SimpleAttributeCurioMixin",
+    "mana.SimpleAttributeSpellBookMixin",
+    "spellpower.EffectCharmMixin",
+    "spellpower.EffectColdSnapMixin",
+    "spellpower.EffectDischargeMixin",
+    "spellpower.EffectSporesMixin",
+    "spellpower.GenericHarmfulPotionEffectMixin",
+    "spellpower.LightningEntityMixin"
+  ],
+  "client": [
+    "mana.ManaBarOverlayMixin"
+  ],
+  "minVersion": "0.8"
+}
